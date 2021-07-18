@@ -32,13 +32,13 @@ class Instaaprofile extends StatelessWidget {
     children: [
       Column(
         children: [
-                Text("23", style: TextStyle(
+                Text("0", style: TextStyle(
                   fontSize: 15,
-                  fontWeight: FontWeight.w700
+                  fontWeight: FontWeight.w700,    color: Colors.white
         ),),
         Text("Posts",style: TextStyle(
           fontSize: 15,
-          letterSpacing: 0.4
+          letterSpacing: 0.4,    color: Colors.white
         ),),
         ],
       ),
@@ -48,13 +48,13 @@ class Instaaprofile extends StatelessWidget {
       Column(
         children: [
           Text(
-            "1.5M",
+            "150",
           style: TextStyle(
-            fontSize: 15, fontWeight: FontWeight.w700),
+            fontSize: 15, fontWeight: FontWeight.w700,    color: Colors.white),
       ),
       Text(
         "Followers",
-        style: TextStyle(fontSize: 15,letterSpacing: 0.4
+        style: TextStyle(fontSize: 15,letterSpacing: 0.4,    color: Colors.white
         ),
       ),
     ],
@@ -68,11 +68,12 @@ class Instaaprofile extends StatelessWidget {
               Text(
                 "123",
                 style: TextStyle(
-                    fontSize: 15, fontWeight: FontWeight.w700),
+                    fontSize: 15, fontWeight: FontWeight.w700,
+                color: Colors.white),
               ),
               Text(
                 "Following",
-                style: TextStyle(fontSize: 15,letterSpacing: 0.4
+                style: TextStyle(fontSize: 15,letterSpacing: 0.4,    color: Colors.white
                 ),
               ),
 
@@ -98,7 +99,7 @@ class Instaaprofile extends StatelessWidget {
      Text(
        "mansi",
        style: TextStyle(
-         color: Colors.black87,
+         color: Colors.white,
          fontWeight: FontWeight.w600,
          fontSize: 16,
          letterSpacing: 0.4),
@@ -109,7 +110,8 @@ class Instaaprofile extends StatelessWidget {
       ),
       Text(
         "kabhi khushi mostly gam",
-        style: TextStyle(letterSpacing: 0.4),
+        style: TextStyle(letterSpacing: 0.4,
+        fontSize: 10,    color: Colors.white),
 
       ),
       Row(
@@ -123,7 +125,7 @@ class Instaaprofile extends StatelessWidget {
             side: BorderSide(color: Colors.grey)),
 
             child:Padding(padding: EdgeInsets.symmetric(horizontal: 50),
-              child:Text("Edit Profile", style: TextStyle(color: Colors.black),
+              child:Text("Edit Profile", style: TextStyle(color: Colors.white),
               ),
             ),
     ),

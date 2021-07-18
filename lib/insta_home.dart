@@ -61,16 +61,7 @@ class InstaHome extends StatelessWidget {
     ),
     );
 
-    },
-
-
-
-                ),
-
-
-
-
-
+    },),
                 new IconButton(
                   icon: Icon(
                     Icons.add_box,
@@ -88,7 +79,7 @@ class InstaHome extends StatelessWidget {
                     Icons.account_box,
                   ),
                   onPressed:   () {
-        Navigator.of(context).pop();
+
         Navigator.of(context).push(MaterialPageRoute(
         builder: (BuildContext context) => profileInsta()
         ),

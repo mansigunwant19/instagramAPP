@@ -6,7 +6,7 @@ import 'package:instagram/profile_insta.dart';
 
 class InstaProfile extends StatelessWidget {
   final topBar = new AppBar(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.black,
       centerTitle: true,
       elevation: 1.0,
       title: Row(
@@ -18,11 +18,12 @@ class InstaProfile extends StatelessWidget {
 
             ),
           Text(
-            'mansigunwant',
+            'lolatlifeyo',
             style: TextStyle(
-              color: Colors.black,
+              color: Colors.white,
               fontWeight: FontWeight.bold,
               fontSize: 18,
+
 
 
             ),
